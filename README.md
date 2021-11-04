@@ -43,6 +43,7 @@ You can try the API using the Swagger interface embedded on this microservice.
 <p align="center"><img src="https://jaimedantas.com/load-microservice/docs/load_microservice_swagger.png" height="50%" width="50%"> </p>
 
 There is a tutorial on Medium [here](https://medium.com/reverse-engineering/creating-your-very-first-microservice-with-micronaut-and-kotlin-9be6be4a58d5).
+
 ## Configuration
 The ``processing-time`` property in the``application.yml`` defines the average processing time of each HTTP
 request in ms. The minimum value for the processing time is 50ms. You can also define the number of threads and the response
@@ -54,3 +55,10 @@ micronaut:
     threads: 2
     return-message: Hello World!
 ```
+
+
+### Citation
+This work was published in the WoSC7:
+
+Jaime Dantas, Hamzeh Khazaei and Marin Litoiu. 2021. BIAS Autoscaler: Leveraging Burstable Instances for Cost-Effective Autoscaling on Cloud Systems. In Seventh International Workshop on Serverless Computing (WoSC7) 2021 (WoSC ’21), December 6, 2021, Virtual Event, Canada. ACM, New York, NY, USA, 8 pages. https://doi.org/10.1145/3493651.3493667
+
